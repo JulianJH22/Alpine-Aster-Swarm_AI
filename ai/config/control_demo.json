@@ -1,0 +1,13 @@
+{
+  "description": "Demo provisional de dos brazos. Ajustar objetivos/objetos al escenario de FASE 4; no son valores de calibracion.",
+  "stages": [
+    [
+      {"robot_id": "arm_1", "execution_id": "cpp35_g1", "type": "Grasp", "object_id": "obj_1"},
+      {"robot_id": "arm_4", "execution_id": "cpp35_g4", "type": "Grasp", "object_id": "obj_2"}
+    ],
+    [
+      {"robot_id": "arm_1", "execution_id": "cpp35_s1", "type": "Sort", "target": {"position": [0.32, 0.0, 0.022], "orientation": null, "frame": "world"}},
+      {"robot_id": "arm_4", "execution_id": "cpp35_s4", "type": "Sort", "target": {"position": [-0.32, 0.0, 0.022], "orientation": null, "frame": "world"}}
+    ]
+  ]
+}

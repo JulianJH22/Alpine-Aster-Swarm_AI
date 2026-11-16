@@ -1,0 +1,30 @@
+{
+  "polygon_sides": 6,
+  "stations": [
+    {
+      "robot_id": "arm_1",
+      "vertex": 0
+    },
+    {
+      "robot_id": "arm_2",
+      "vertex": 1
+    },
+    {
+      "robot_id": "arm_3",
+      "vertex": 2
+    },
+    {
+      "robot_id": "arm_4",
+      "vertex": 3
+    },
+    {
+      "robot_id": "arm_5",
+      "vertex": 4
+    },
+    {
+      "robot_id": "arm_6",
+      "vertex": 5
+    }
+  ],
+  "note": "Six occupied hexagon vertices. Example only; Phase 4 defines coordinates, scale, geometry and 3D simulation. JSON loading is not implemented."
+}

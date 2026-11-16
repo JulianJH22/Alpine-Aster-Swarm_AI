@@ -1,0 +1,23 @@
+{
+  "phase": "6.1",
+  "episodes_planned": 1000,
+  "curriculum": [
+    {
+      "agents": 1,
+      "episodes": 300
+    },
+    {
+      "agents": 2,
+      "episodes": 300
+    },
+    {
+      "agents": 6,
+      "episodes": 400
+    }
+  ],
+  "platform_rotation": false,
+  "action_scale_m": 0.02,
+  "control_steps": 24,
+  "episode_steps": 120,
+  "note": "No incluye MAPPO; FASE 6.2"
+}
